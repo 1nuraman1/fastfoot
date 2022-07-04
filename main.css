@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Roboto:wght@300&display=swap');
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+    box-shadow: 0 0 1rem red;
+}
+#header {
+    position: relative;
+    box-shadow: 0 0 1rem red;
+    box-sizing: border-box;
+    padding: 2rem;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin: 1rem 0 0 0;
+    border-radius: 20px;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    
+}
+.row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fastfoot {
+    position:absolute;
+    background-image: url(https://img.freepik.com/free-vector/fast-food-logo-design-vector_18099-221.jpg);
+    background-repeat: no-repeat;
+    background-size: calc(145%);
+    background-position: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.logo {
+    margin-left: 8rem;
+}
+.nav-bars {
+    display: flex;
+    list-style: none;
+}
+.nav-bar {
+    margin-left: 3rem;   
+}
+
+#section-1 {
+    margin-bottom: 10rem;
+}
+#section-1 .container img {
+    width: 1200px;
+    box-shadow: 0 0 50rem red;
+}
+.blocks {
+    position: absolute;
+    font-size: 5rem;
+    color: white;
+    margin-top: -40rem;
+    margin-left: 18rem;
+    box-shadow: 0 0 1rem red;
+}
+.menus {
+    display: flex;
+    justify-content: center;
+    margin-top: -15rem;
+}
+.menus div {
+    background-image: url(https://previews.123rf.com/images/miracel123/miracel1231801/miracel123180100797/94312688-food-delivery-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 50px;
+    height:     50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    padding: 50px 50px;
+    box-shadow: 0 0 1rem red;
+}
+
+#section-2 {
+    margin-bottom: 5rem;
+    
+}
+
+.six-block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.six-block div {
+    background-image: url(https://img.freepik.com/free-vector/digital-restaurant-menu-horizontal-format_23-2148655475.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 0 1rem red;
+}
+
+#footer {
+    box-shadow: 0 0 1rem rgb(250, 242, 242);
+    box-sizing: border-box;
+    padding: 1rem;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin: 1rem 0 0 0;
+    background-color: rgb(190, 10, 10);
+
+}
+
+.createdBy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.createdBy img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem red;
+}
+.logo-footer {
+    position: absolute;
+    margin-left: 8rem;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width:1024px) {
+    .row {
+        justify-content: start;
+    }
+    .fastfoot {
+        margin-left: 25rem;
+    }
+    .logo {
+        position: absolute;
+        margin-left: 23.5rem;
+        margin-top: 10rem;
+        font-size: 30px;
+    }
+    .nav-bar {
+        margin-left: 5.3rem;
+        margin-right: 6.5rem;
+    }
+
+    #section-1 .container img {
+        width: 990px;
+    }
+
+    .blocks {
+        font-size: 3.5rem;
+        margin-top: -33rem;
+        margin-left: 17rem;
+    }
+    .menus {
+        margin-left: -13rem;
+    }
+
+    .menus div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .six-block div {
+        width: 337px;
+        margin-left: -5rem;
+        margin-right: 9rem;
+    }
+
+    .createdBy img {
+        margin-left: 25rem;
+    }
+    .logo-footer {
+        position: absolute;
+        margin-left: 33rem;
+    }
+
+    .name {
+        position: absolute;
+        margin-left: 2rem;
+    }
+    .date {
+        position: absolute;
+        margin-left:50rem;
+    }
+}
